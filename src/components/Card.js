@@ -75,6 +75,7 @@ export default function Card() {
     const audio = new Audio('\images\hbd_song.mp3');  // Path to your audio file
     audio.play();
   }
+  
   useEffect(() => {
     //playAudio()
     const papers = Array.from(document.querySelectorAll('.paper'));
@@ -95,13 +96,13 @@ export default function Card() {
 
       </div>
       <div className="paper image">
-        <p>15 Made with hard work and ❤️ by Siddhesh</p>
+        <p>15 Made with ❤️ by Siddhesh</p>
         </div>
 
       <div className="paper image">
         <p>14 Wish this love will keep on increasing !</p>
         <p>I love you ♾️ Aishwarya !&#128157;</p>
-        <img src="\images\img10.jpeg" alt="1" />
+        <img src="./images/img10.jpeg" alt="1" />
       </div>
 
     
@@ -119,49 +120,49 @@ export default function Card() {
       <div className="paper image">
         <p>12 I Just pray to God these hands </p>
         <p>will never have to let go&#129309;</p>
-        <img src="\images\img8.jpeg" alt="1" />
+        <img src="./images/img8.jpeg" alt="1" />
       </div>
       
       <div className="paper image">
         <p>11 Your Sweet Smile &#128152;</p>
-        <img src="\images\img9.jpeg" alt="1" />
+        <img src="./images/img9.jpeg" alt="1" />
       </div>
       
       <div className="paper image">
         <p>10 Your charm&#128171;</p>
-        <img src="\images\img7.jpeg" alt="1" />
+        <img src="./images/img7.jpeg" alt="1" />
       </div>
        
       <div className="paper image">
         <p>9 Your Beauty&#128525;</p>
-        <img src="\images\img6.jpeg" alt="1" />
+        <img src="./images/img6.jpeg" alt="1" />
       </div>
 
       <div className="paper image">
         <p>8 The Cute child in you &#128518;</p>
-        <img src="\images\img5.jpeg" alt="1" />
+        <img src="./images/img5.jpeg" alt="1" />
       </div>
        
       <div className="paper image">
         <p>7 The fights&#128545; and the care&#128519;  </p>
-        <img src="\images\img4.jpeg" alt="2" />
+        <img src="./images/img4.jpeg" alt="2" />
       </div>
       
       <div className="paper image">
         <p>6 The countless video calls &#128513;</p>
-        <img src="\images\img3.jpeg" alt="2" />
+        <img src="./images/img3.jpeg" alt="2" />
       </div>
      
       <div className="paper image">
         <p>5 In the second meet, the magic happened</p>
         <p>And you became mine❤️</p>
-        <img src="\images\img2.jpeg" alt="3" />
+        <img src="./images/img2.jpeg" alt="3" />
       </div>
        
        <div className="paper red">
         <p className="p1">4 It was the "Animal" who encouraged us</p>
         <p className="p2">to fall in love 😍&#128513;</p>
-         <img src="\images\img1.jpeg" alt="2" />
+         <img src="./images/img1.jpeg" alt="2" />
       </div> 
      
        <div className="paper">
